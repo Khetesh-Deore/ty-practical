@@ -23,7 +23,7 @@ double bound(int i, int w, int p, int n, int W, Item arr[])
     if (w >= W) return 0;
     double result = p;
     int tw = w;
-
+          
     while (i < n && tw + arr[i].weight <= W)
     {
         tw += arr[i].weight;
